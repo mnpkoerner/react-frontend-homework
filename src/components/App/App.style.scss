@@ -122,3 +122,58 @@
         font-weight: 500;
     }
 }
+
+.filters{
+	width: 50%;
+	margin-bottom: 5px;
+	position: sticky;
+	top: 0px;
+
+}
+
+.content{
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+}
+
+.hotel-list{
+	width: 50%;
+}
+
+.select-button:hover{
+	background-color: #163809;
+	transition: .15s;
+}
+.reset-button:hover{
+	background-color: black;
+	transition: .15s;
+}
+.select-button:active{
+	background-color: #758d6b;
+
+}
+.reset-button:active{
+	background-color: rgb(158, 155, 155);
+
+}
+
+.hotel-details-card{
+    display: flex;
+    flex-direction:column;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    width: 45%;
+
+
+}
+
+.hotel-details-card .image{
+    width: 50%;
+    height: auto;
+    min-width: 180px;
+        height: 180px;
+        background-size: cover;
+    background-size: cover;
+}

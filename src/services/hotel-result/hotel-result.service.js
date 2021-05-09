@@ -1,11 +1,12 @@
 import axios from 'axios';
 
+//added a log for extra information
 class HotelResultService {
     get() {
         return axios
             .get('http://localhost:8080/rest/rates')
             .then(response => response.data)
-            .catch(() => {})
+            .catch((error) => {console.log(error)})
     }
 }
 

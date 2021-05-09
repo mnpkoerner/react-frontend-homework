@@ -16,7 +16,6 @@ export default function hotelSortService(arrayToSort, typeOfSort) {
 
             default:
                 //if the function is called without user input, the input array is returned unsorted
-                console.error('issue sorting, hotel results are returned unsorted')
                 return arrayToSort
         }
     })

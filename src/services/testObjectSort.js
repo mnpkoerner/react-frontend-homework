@@ -5,7 +5,7 @@
 //testObject.testSortAscending = for sort test, lowest to highest
 //testObject.testSortRecommended = for sort test, sorts by rating highest to lowest
 
-const testObject = {
+const testObjectSort = {
     mockApi:
         [
             {
@@ -618,4 +618,4 @@ const testObject = {
     ]
 }
 
-export default testObject;
+export default testObjectSort;
