@@ -4,7 +4,8 @@ import hotelFilterService from '../../services/hotel-filter/hotel-filter.service
 import HotelList from '../HotelList/HotelList'
 import SearchFailure from '../SearchFailure/SearchFailure'
 
-
+//main component for the app, holds the controls for a user to filter and search
+//based on success of user search, HotelList or SearchFailure is called
 export default function SearchControls({ hotels }) {
 
     //state variables to capture user input from the hotel name filter field and the sort dropdown
@@ -20,7 +21,6 @@ export default function SearchControls({ hotels }) {
     const reset = () => {
         setSortValue('');
         setFilterValue('');
-        console.log('reset')
     }
 
     return (
@@ -37,7 +37,7 @@ export default function SearchControls({ hotels }) {
                     value={filterValue}
                     onChange={(event)=>setFilterValue(event.target.value)}/>
 
-                <label htmlFor="hotel-price">Hotel name</label>
+                <label htmlFor="hotel-price">Sort by</label>
                 <select
                     name="hotel-price-sort-dropdown"
                     className="select"

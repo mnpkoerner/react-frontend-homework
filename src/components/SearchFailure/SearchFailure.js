@@ -1,7 +1,11 @@
 import React from 'react'
 
-export default function SearchFailure () {
+//component shows when a user searches for a hotel name, and search returns no resuts
+export default function SearchFailure() {
     return (
-        <h1>No Results Matched Your Search</h1>
+        <main className="search-failed">
+            <h1>We're sorry, we couldn't find a match for your search</h1>
+            <h3>Please either reset your search or refresh the page to try again</h3>
+        </main>
     )
 }
