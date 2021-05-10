@@ -180,11 +180,13 @@
 }
 
 .hotel-details-card h1 {
+    text-align: center;
     font-weight: bold;
     font-size: 1.4rem;
     margin: 3px;
 }
 .hotel-details-card h3 {
+    text-align: center;
     font-weight: bold;
     font-size: 1.2rem;
     margin: 3px;
@@ -203,4 +205,15 @@
     margin: 5px;
     font-size: .8rem;
     color: #6D6D6D;
+}
+
+.button-panel{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+hr{
+    border: 1px solid black;
+    width: 80%
 }

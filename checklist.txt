@@ -19,7 +19,7 @@ To Do:
     [x] Sort
     [x] Filter
 
-[] Extra Styling
+[x] Extra Styling
 
 What I did:
 1. Made test array
@@ -36,3 +36,4 @@ tests cleared, then hooked the function into the app
 7. Wrote tests and function for hotel-filter.service.js, current function passes test data
 8. Hooked functions into App.js
 9. Implemented new component with ternary operator to render a message to the user if their search fails
+10. Implemented a bonus feature that allowed the user to click the select button and it opens a a card of details about the hotel
