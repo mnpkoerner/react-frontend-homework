@@ -11,7 +11,7 @@ export default function HotelList({
     const [hotelDetails, setHotelDetails] = useState('')
     //Earmarked for further functionality. What happens when the user clicks?
     const handleClick = (uniqueHotel) => {
-        console.log(uniqueHotel.id)
+
         setSeeDetails(true)
         setHotelDetails(uniqueHotel)
     }

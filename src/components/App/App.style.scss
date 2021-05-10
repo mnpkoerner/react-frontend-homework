@@ -76,6 +76,7 @@
         min-width: 180px;
         height: 180px;
         background-size: cover;
+        background-color:#6D6D6D;
     }
 
     .hotel-details {
@@ -205,6 +206,7 @@
     margin: 5px;
     font-size: .8rem;
     color: #6D6D6D;
+    height: 15%
 }
 
 .button-panel{
@@ -216,4 +218,14 @@
 hr{
     border: 1px solid black;
     width: 80%
+}
+
+.search-failed h1{
+    font-size: 2rem;
+    text-align: center;
+    margin: 5%;
+}
+.search-failed h3{
+    font-size: 1.5rem;
+    text-align: center;
 }

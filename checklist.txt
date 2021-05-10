@@ -37,3 +37,5 @@ tests cleared, then hooked the function into the app
 8. Hooked functions into App.js
 9. Implemented new component with ternary operator to render a message to the user if their search fails
 10. Implemented a bonus feature that allowed the user to click the select button and it opens a a card of details about the hotel
+11. tried to trip up my functions
+12. if the API doesn't return results, the SearchFailure component shows and prompts the user to refresh the page
