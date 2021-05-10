@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-//added a log for extra information
+//added a log for extra information about the error if one occurs
 class HotelResultService {
     get() {
         return axios
