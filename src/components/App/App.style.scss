@@ -161,19 +161,46 @@
 .hotel-details-card{
     display: flex;
     flex-direction:column;
+    align-items: center;
     position: fixed;
-    right: 20px;
-    top: 20px;
+    right: 3%;
+    top: 10%;
     width: 45%;
+    height: 85%;
+    overflow-y: auto;
+    padding: 1%;
+    background-color: #FFFFFF;
+    border-radius: 2%;
+    box-shadow: 5px 5px 5px #232323;
+}
+.details-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.hotel-details-card h1 {
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin: 3px;
+}
+.hotel-details-card h3 {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 3px;
 
 }
 
-.hotel-details-card .image{
-    width: 50%;
-    height: auto;
-    min-width: 180px;
-        height: 180px;
-        background-size: cover;
-    background-size: cover;
+.hotel-details-card-description{
+    height: 60%;
+    overflow-y: auto;
+    padding: 2px;
+    margin: 5px;
+
+}
+
+.amenities{
+    margin: 5px;
+    font-size: .8rem;
+    color: #6D6D6D;
 }
